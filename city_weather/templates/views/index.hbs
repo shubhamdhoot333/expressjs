@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello, world!</title>
+<style>
+  .footer1{
+    width: auto;
+   padding: 0 15px;
+   text-align: center;
+    margin-top: auto;
+
+}
+  
+  body{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+</style>
+
+  </head>
+  <body>
+      {{>header}}
+    <h1>{{ username }}</h1>
+      {{>bootlink}}
+      {{>footer}}
+  </body>
+</html>
